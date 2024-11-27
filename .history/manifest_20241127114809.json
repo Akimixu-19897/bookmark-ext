@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "My Vue Chrome Ext",
+    "version": "0.0.1",
+    "description": "Chrome 插件",
+    "action": {
+        "default_title": "Vue Chrome Ext",
+        "default_popup": "popup/index.html"
+    },
+    "background": {
+        "service_worker": "src/background/service-worker.ts"
+    },
+    "permissions": [],
+    "host_permissions": [],
+    "content_scripts": [
+        {
+            "js": [
+                "src/content/content.ts"
+            ],
+            "matches": [
+                "http://127.0.0.1:5500/*"
+            ],
+            "all_frames": true,
+            "run_at": "document_end",
+            "match_about_blank": true
+        }
+    ]
+}

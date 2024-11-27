@@ -1,0 +1,22 @@
+{
+  "name": "notes-manager-ext",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "autoformat-commit": "autoformat-commit"
+  },
+  "dependencies": {
+    "autoformat-commit": "^1.0.25",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.1.10"
+  }
+}

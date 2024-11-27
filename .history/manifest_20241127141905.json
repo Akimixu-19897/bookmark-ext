@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "湫·书签",
+    "version": "0.0.1",
+    "description": "书签栏管理",
+    "action": {
+        "default_popup": "popup/index.html",
+        "default_icon": {
+            "16": "src/icons/logo_new.png",
+            "48": "src/icons/logo_new.png",
+            "128": "src/icons/logo_new.png"
+        }
+    },
+    "permissions": [
+        "bookmarks"
+    ],
+    "host_permissions": [],
+    "background": {
+        "service_worker": "src/background/service-worker.ts"
+    }
+}

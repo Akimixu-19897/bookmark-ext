@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "湫·书签",
+    "version": "0.0.1",
+    "description": "书签栏管理",
+    "action": {
+        "default_popup": "popup/index.html"
+    },
+    "permissions": [],
+    "host_permissions": [],
+    "background": {
+        "service_worker": "src/background/service-worker.ts"
+    }
+}

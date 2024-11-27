@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "my-vue3-plugin",
+    "description": "基于vue3.x版本的chrome插件",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "bookmarks"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "notes-manager-ext",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch-build": "vite --watch build",
+    "preview": "vite preview",
+    "autoformat-commit": "autoformat-commit",
+    "commit": "git add . && git-cz"
+  },
+  "dependencies": {
+    "autoformat-commit": "^1.0.25",
+    "element-plus": "^2.8.8",
+    "sass": "^1.81.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-angular": "^17.0.3",
+    "@commitlint/cz-commitlint": "^17.0.3",
+    "@crxjs/vite-plugin": "^1.0.14",
+    "@types/node": "^22.10.0",
+    "@typescript-eslint/parser": "^5.30.7",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "chrome-types": "^0.1.322",
+    "commitizen": "^4.2.4",
+    "cz-customizable": "^6.9.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.2.0",
+    "inquirer": "^8.0.0",
+    "prettier": "^2.7.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.0",
+    "vue-tsc": "^2.1.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  }
+}
