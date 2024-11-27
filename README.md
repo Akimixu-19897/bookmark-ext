@@ -12,3 +12,4 @@ const vmAsset = bundle["manifest.json"];
 // 改为
 const vmAsset = bundle["/vite/manifest.json"];
 ```
+之后才可以成功打包
